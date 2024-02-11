@@ -14,7 +14,7 @@ const Login = (props) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch("https://backend-yccy.onrender.com/api/auth/login", {
+    const response = await fetch("https://backend22.netlify.app/api/auth/login", {
       method: 'POST',
       headers: {
         'content-type': 'application/json',
