@@ -14,7 +14,8 @@ const Signup = (props) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch("https://backend22.netlify.app/api/auth/createuser", {
+    // const response = await fetch("https://backend22.netlify.app/api/auth/createuser", {
+    const response = await fetch("https://backend-yccy.onrender.com/api/auth/createuser", {
       method: 'POST',
       headers: {
         'content-type': 'application/json',
